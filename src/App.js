@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Footer from "./components/Layout/Footer/Footer"
 import Header from "./components/Layout/Header/Header"
 import Home from "./components/Pages/Home/Home"
 import Projects from "./components/Pages/Projects/Projects"
@@ -9,22 +8,6 @@ import ProjectDetail from './components/Pages/Projects/ProjectsDetail/ProjectDet
 
 
 function App() {
-  
-  //scrolling navigation hide/view event listener
-  let prevScrollPos = window.pageYOffset
-
-  window.addEventListener("scroll", () => { 
-    const currentScrollPos = window.pageYOffset
-
-    if (prevScrollPos > currentScrollPos) {
-      document.querySelector(".footer").classList.remove("hide")
-    } else {
-      document.querySelector(".footer").classList.add("hide")
-    }
-
-    prevScrollPos = currentScrollPos
-
-})
   return (
     <div>
       <Router>
@@ -35,7 +18,6 @@ function App() {
           <Route path="/contactme" element={<ContactMe />} />
           <Route path="/" element={<Home />} /> 
         </Routes>     
-        <Footer />
       </Router>
     </div>
   )

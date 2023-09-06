@@ -3,7 +3,7 @@
 
 /* Style the technologies container */
 .technologies {
-    background:  white;
+    background:  var(--med-green);
     padding: 30px 20px;
 }
 .technologies-container {

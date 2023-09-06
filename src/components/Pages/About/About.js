@@ -9,14 +9,14 @@ function About(){
     return(
         <div className="about">
             <div className="about-container">
-                <div className="about-headshot">
+                {/* <div className="about-headshot">
                     <img src={headshot} alt="Headshot" className="circle-image" />
-                </div>
+                </div> */}
                 <div className="about-blurb">
-                    <h2>Full Stack Web Developer</h2>
+                    <h2>Designer and Creator</h2>
                     <h3>New York, NY </h3>
-                    <p>Hello! I'm Sofia - I build things.</p>
-                    <p>Whether it's full stack applications or diverse creative projects, my background in operations, logistics, and design enables me to craft well-rounded solutions that consider every aspect of the development process.</p>  
+                    <p>Hello! I'm Sofia - I design and build things.</p>
+                    <p>From crafting eye-catching design portfolios to bringing creative concepts to life, I thrive in the realm of visual storytelling and artistic innovation. With a diverse background encompassing design, project management, and creative production, I'm passionate about transforming ideas into tangible works of art.</p>  
                     <br/><br/><br/>
                     <a href={resume} download className="resume">Download My Resume</a>
                 </div>
