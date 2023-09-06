@@ -1,0 +1,34 @@
+/* Contact.css */
+
+/* Style the contact container */
+.contact {
+    display: inline-block;
+    /* text-align: center; */
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+
+  }
+  
+  /* Style the contact images */
+  .contact img {
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%; 
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  /* Button hover effect */
+  .contact:hover img {
+    transform: scale(1.2); /* Enlarge the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  @media screen and (max-width: 768px) {
+    .contact{
+      /* padding-bottom: 30px; */
+    }
+    }

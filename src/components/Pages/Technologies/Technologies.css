@@ -1,0 +1,58 @@
+/* Technologies.css */
+@import '../../../App.css';
+
+/* Style the technologies container */
+.technologies {
+    background:  white;
+    padding: 30px 20px;
+}
+.technologies-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style each individual technology */
+.technology {
+    margin: 10px;
+    position: relative; 
+}
+
+.technology a {
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+}
+
+/* Style the technology images */
+.technology img {
+    width: 50px; 
+    height: 50px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Circular Shadow hover effect */
+.technology:hover a {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px var(--light-green);
+    background-color: white;
+}
+
+.technology:hover img {
+    transform: scale(1); 
+}
+
+.title {
+    font-weight: bold;
+    letter-spacing: .2rem;
+    text-align: center;
+    color: var(--med-green);
+  }

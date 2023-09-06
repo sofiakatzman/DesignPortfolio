@@ -1,0 +1,64 @@
+.project-detail {
+    padding: 20px;
+  }
+  
+  .project-detail h1 {
+    color: var(--main-green);
+  }
+  
+  .project-detail p {
+    margin-bottom: 10px;
+  }
+    
+  /* .project-details h2 {
+    color: var(--med-green);
+    margin-bottom: 10px;
+  }
+   */
+  h2.project-name{
+    color: var(--main-orange);
+    font-size: 20px;
+  }
+  .project-details ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .project-details li {
+    margin-bottom: 5px;
+
+  }
+
+  .project-features {
+    background-color: var(--light-green);
+    padding: 5%;
+  }
+
+  .project-achievements{
+    background-color: var(--white);
+    padding: 5%;
+    margin-bottom: 100px;
+  }
+
+  .project-header{
+    margin-top: 0px;
+    padding: 5%;
+    background-color: var(--med-green)
+  }
+
+  h2.project-case-study-header{
+    color: var(--main-light);
+  }
+
+  h1.project-name {
+    color: var(--light-beige);
+  }
+
+  .project-case-study {
+    color: var(--light-green);
+  }
+
+  h2{
+    color: var(--med-green);
+    font-size: 20px;
+  }
