@@ -21,7 +21,7 @@ function Projects() {
                 
                 <div className="project-card" key={project.name}>
                   
-                    <img src={project.image} alt={`${project.name}Image`} /> 
+                    <img src={project.image} alt={`${project.name}`} /> 
                     <h2 className="project-name">{project.name.toUpperCase()}</h2><br/>
                     <h3>{project.summary}</h3>
                     <p>{project.stack}</p>

@@ -9,9 +9,7 @@ function About(){
     return(
         <div className="about">
             <div className="about-container">
-                {/* <div className="about-headshot">
-                    <img src={headshot} alt="Headshot" className="circle-image" />
-                </div> */}
+
                 <div className="about-blurb">
                     <h2>Designer and Creator</h2>
                     <h3>New York, NY </h3>
@@ -20,6 +18,7 @@ function About(){
                     <br/><br/><br/>
                     <a href={resume} download className="resume">Download My Resume</a>
                 </div>
+                
             </div>
         </div>
 

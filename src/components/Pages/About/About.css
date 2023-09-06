@@ -63,8 +63,8 @@
 }
 
 .resume:hover{
-    background-color: var(--med-green);
-    color: var(--light-green);
+    background-color: var(--light-green);
+    color: var(--med-green);
 
 }
 @media screen and (max-width: 768px) {
