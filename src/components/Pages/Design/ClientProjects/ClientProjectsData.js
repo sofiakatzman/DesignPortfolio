@@ -26,6 +26,7 @@ const CLIENT_PROJECTS_DATA = [
       require('./ClientProjectsAssets/Tucano/mosaic1.jpg'),
       require('./ClientProjectsAssets/Tucano/mosaic2.JPG'),
       require('./ClientProjectsAssets/Tucano/mosaic3.JPG'),
+      require('./ClientProjectsAssets/Tucano/tucanoinvite1.jpg'),
       require('./ClientProjectsAssets/Tucano/tucanoinvite2.jpg'),
     ],
     materials: [
@@ -62,18 +63,22 @@ const CLIENT_PROJECTS_DATA = [
     favoritePart:
       "My favorite part was the completion of the backyard mural! I had never painted something so big in my life, and I feel like this was the moment where I felt like, YES, I am an artist!",
     images: [
-      "Image URL 4 : Bae Tails Logo",
-      "Image URL 5: Facade",
-      "Image URL 4 : Lobby",
-      "Image URL 5 : Backyard Mural",
-      "Image URL 4 : Business Cards",
-      "Image URL 5 : Brochure",
+      require('./ClientProjectsAssets/BaeTails/bt-logo.jpg'),
+      require('./ClientProjectsAssets/BaeTails/bt-fascade.png'),
+      require('./ClientProjectsAssets/BaeTails/bt-lobby.png'),
+      require('./ClientProjectsAssets/BaeTails/bt-backmural.png'),
+    
     ],
     materials: [
       {
-        text: "Download Doggy Day Care Brochure",
-        link: "Brochure URL",
+        text: "Download Buisness Cards",
+        link: require('./ClientProjectsAssets/BaeTails/bt-buisnesscard-01.png'),
       },
+      {
+        text: "Download Brochure",
+        link: require('./ClientProjectsAssets/BaeTails/brochure.pdf'),
+      },
+      
       // Add more materials as needed...
     ],
   },
