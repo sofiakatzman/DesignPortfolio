@@ -60,6 +60,7 @@ h2.client-project-name {
 
 h2.client-project-case-study-header {
   color: var(--main-light);
+  font-size: 32px;
 }
 
 h1.client-project-name {

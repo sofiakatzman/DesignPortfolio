@@ -16,8 +16,7 @@ function ClientProjectDetail() {
   return (
     <div>
       <div className="client-project-header">
-        <h1 className="client-project-name">{clientProject.name}</h1>
-        <h2 className="client-project-case-study-header">CASE STUDY</h2>
+        <h2 className="client-project-case-study-header">{clientProject.name}</h2>
         <p className="client-project-case-study">
           <b>Client Problem: </b> {clientProject.clientProblem}
         </p>
