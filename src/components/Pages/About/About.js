@@ -1,7 +1,7 @@
 import React from "react"
 import './About.css'
 import headshot from '../../../assets/headshot.jpg'
-import resume from '../../../assets/Sofia_Katzman_Resume.pdf'
+import resume from '../../../assets/Sofia_Katzman_Design.pdf'
 import Contact from '../../Layout/Contact/Contact'
 
 function About(){
