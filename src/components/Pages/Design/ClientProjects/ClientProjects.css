@@ -1,0 +1,27 @@
+.client-project{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    letter-spacing: 10px;
+}
+
+.client-project-button{
+    background-color: var(--light-green);
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+    color: var(--med-green);
+    padding: 20px;
+    margin-bottom: 5px; 
+    width: 200px;
+    margin-left: 15px;
+}
+
+/* .design-category:last-child {
+    margin-bottom: 0; 
+} */
+
+.client-project-button:hover {
+    background-color: var(--med-orange);
+    color: var(--med-green);
+}

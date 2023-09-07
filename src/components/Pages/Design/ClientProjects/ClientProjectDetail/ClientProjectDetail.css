@@ -1,0 +1,93 @@
+.client-project-detail {
+  padding: 20px;
+}
+
+.client-project-detail h1 {
+  color: var(--main-green);
+}
+
+.client-project-detail p {
+  margin-bottom: 10px;
+}
+
+h2.client-project-name {
+  color: var(--main-orange);
+  font-size: 20px;
+}
+
+.client-project-detail ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.client-project-detail li {
+  margin-bottom: 5px;
+}
+
+.client-project-features {
+  background-color: var(--light-green);
+  padding: 5%;
+  width: 100%;
+}
+
+.client-project-images {
+  background-color: var(--white);
+  padding: 5%;
+  margin-bottom: 100px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.image-gallery img {
+  padding: 0%;
+  width: 200px; /* Set a fixed width */
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Preserve the aspect ratio and cover the container */
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.client-project-header {
+  margin-top: 0px;
+  padding: 5%;
+  background-color: var(--med-green);
+}
+
+h2.client-project-case-study-header {
+  color: var(--main-light);
+}
+
+h1.client-project-name {
+  color: var(--light-beige);
+}
+
+.client-project-case-study {
+  color: var(--light-green);
+}
+
+.client-project-detail h2 {
+  color: var(--med-green);
+  font-size: 20px;
+}
+
+.material-button {
+  background-color: var(--light-green);
+  border-radius: 15px;
+  border: none;
+  text-decoration: none;
+  color: var(--med-green);
+  padding: 20px;
+  margin-bottom: 5px;
+  width: 200px;
+  margin-left: 15px;
+}
+
+.material-button:hover {
+  background-color: var(--med-orange);
+  color: var(--med-green);
+}

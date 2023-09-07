@@ -7,8 +7,8 @@ import ContactMe from './components/Pages/ContactMe/ContactMe'
 import ProjectDetail from './components/Pages/Projects/ProjectsDetail/ProjectDetail'
 import Design from './components/Pages/Design/Design'
 import UserInterface from './components/Pages/Design/UserInterface/UserInterface'
-
-
+import ClientProjects from './components/Pages/Design/ClientProjects/ClientProjects'
+import ClientProjectDetail from './components/Pages/Design/ClientProjects/ClientProjectDetail/ClientProjectDetail'
 function App() {
   return (
     <div>
@@ -19,7 +19,8 @@ function App() {
           <Route path="/design" element={<Design />} /> 
           {/* paths for all project pages will go here */}
             <Route path="/design/ui" element={<UserInterface />} /> 
-            
+            <Route path="/design/clientprojects" element={<ClientProjects />} />
+            <Route path="/design/clientprojects/:name" element={<ClientProjectDetail />} />
           <Route path="/project/:name" element={<ProjectDetail />} />
           <Route path="/contactme" element={<ContactMe />} />
           <Route path="/" element={<Home />} /> 
