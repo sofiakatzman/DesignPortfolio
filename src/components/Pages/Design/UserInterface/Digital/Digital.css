@@ -1,14 +1,14 @@
 /* Digital.css */
 .digital {
   background-color: var(--light-beige);
-  padding: 60px; /* Add padding for better appearance */
+  padding: 20px 100px 100px 100px;
   text-align: center;
 }
 
-.digital h1 {
+/* .digital h1 {
   font-size: 24px;
   margin-bottom: 20px;
-}
+} */
 
 .digital-cards {
   display: grid;

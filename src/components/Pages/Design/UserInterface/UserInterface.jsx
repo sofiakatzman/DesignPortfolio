@@ -20,12 +20,13 @@ function UserInterface() {
 
   return (
     <div className="ui-projects">
-      <h1>User Interface Projects</h1>
+      <h1>USER INTERFACE PROJECTS</h1><br/>
       {USERINTERFACEDATA.map((project) => {
         return <UserInterfaceCard key={project.name} project={project} openModal={openModal} />;
       })}
 
       {isModalOpen && <ImageModal imageUrl={modalImage} onClose={closeModal} />}
+      <p><i>Click on photo to enlarge.</i></p>
     </div>
   );
 }

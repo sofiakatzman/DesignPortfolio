@@ -14,7 +14,7 @@ function ClientProjectDetail() {
   }
 
   return (
-    <div>
+    <>
       <div className="client-project-header">
         <h2 className="client-project-case-study-header">{clientProject.name}</h2>
         <p className="client-project-case-study">
@@ -62,7 +62,7 @@ function ClientProjectDetail() {
           ))}
         </div>
         </div>
-      </div>
+        </>
   );
 }
 
