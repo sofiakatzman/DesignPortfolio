@@ -1,10 +1,10 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
-/* .design-categories {
+.design-categories {
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    letter-spacing: 10px;
+    /* letter-spacing: 10px; */
 }
 
 .design-category {
@@ -18,14 +18,14 @@
     width: 200px;
 }
 
-/* .design-category:last-child {
+.design-category:last-child {
     margin-bottom: 0; 
-} */
+}
 
-/* .design-category:hover {
+.design-category:hover {
     background-color: var(--med-orange);
     color: var(--med-green);
-} */
+}
 
 .image-gallery img {
 height: 800px!important;

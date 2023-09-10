@@ -13,6 +13,7 @@
     --main-lighter: #f0d7cb;
     --lightest-green:#e4f4e7;
     --white-green:#eef4ef;
+    font-kerning: none!important;
 }
 
 body {
@@ -23,7 +24,7 @@ h1 {
     font-size: 34px;
     font-weight: bold;
     color: var(--main-orange);
-    font-kerning: none;
+ 
   }
 
   h2 {
