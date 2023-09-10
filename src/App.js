@@ -11,6 +11,7 @@ import ClientProjects from './components/Pages/Design/ClientProjects/ClientProje
 import ClientProjectDetail from './components/Pages/Design/ClientProjects/ClientProjectDetail/ClientProjectDetail'
 import Digital from './components/Pages/Design/UserInterface/Digital/Digital'
 import AboutMe from './components/Pages/AboutMe/AboutMe'
+import Gallery from './components/Pages/Gallery/Gallery'
 function App() {
   return (
     <div>
@@ -18,7 +19,7 @@ function App() {
         <Header />        
         <Routes>
           {/* <Route path="/projects" element={<Projects />} /> */}
-          <Route path="/design" element={<Design />} /> 
+          <Route path="/design" element={<Gallery />} /> 
           {/* paths for all project pages will go here */}
             <Route path="/design/ui" element={<UserInterface />} /> 
             <Route path="/design/clientprojects" element={<ClientProjects />} />

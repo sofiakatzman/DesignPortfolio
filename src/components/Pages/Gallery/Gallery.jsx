@@ -1,26 +1,32 @@
 import React from "react";
 import './Gallery.css'
-import { useNavigate } from "react-router-dom";
+import ImageGalleryDisplay from "./ImageGalleryDisplay/ImageGalleryDisplay";
 
 
-function Gallery(){
-    const navigate = useNavigate()
-
-    const onClickUI = () => navigate('/design/ui')
-    const onClickClientProjects = () => navigate('/design/clientprojects')
-    const onClickDigital = () => navigate('/design/digital')
 
 
-    return(
-        <div className="design-categories">
-            <button className="design-category" onClick={onClickUI}>USER INTERFACE</button> <br/>
-            <button className="design-category" onClick={onClickDigital}>DIGITAL</button> <br/>
-            {/* <button className="design-category">PRINT</button> <br/> */}
-            <button className="design-category" onClick={onClickClientProjects}>CLIENT PROJECTS</button> <br/>
-            {/* <button className="design-category">ILLUSTRATIONS</button> <br/> */}
-            {/* <Technologies /> */}
-        </div>
-    )
+function Gallery() {
+
+    const images = [
+        {
+          original: "https://picsum.photos/id/1018/1000/600/",
+          thumbnailTitle:" thumbnail image title"
+        },
+        {
+          original: "https://picsum.photos/id/1015/1000/600/",
+        },
+        {
+          original: "https://picsum.photos/id/1019/1000/600/",
+        },
+      ];
+
+  // Define custom CSS styles with min-width and max-width
+
+  return (
+    <div className="design-categories">
+      <ImageGalleryDisplay images={images} />
+    </div>
+  );
 }
 
-export default Gallery
+export default Gallery;

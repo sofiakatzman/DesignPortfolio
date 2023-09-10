@@ -23,7 +23,9 @@ function AboutMe(){
 
                 When I'm not immersed in work or furthering my skills, you'll find me gliding through life on roller-skates, experimenting with new recipes, or immersing myself in the world of games. <br/><br/>
 
-                If you're interested in connecting or exploring potential opportunities, please don't hesitate to reach out. Let's chat and create something extraordinary together!<br/><br/> </p>
+                If you're interested in connecting or exploring potential opportunities, please don't hesitate to reach out. <br/><br/>
+                
+                Let's chat and create something extraordinary together!<br/><br/> </p>
                 <a href={resume} download className="resume">Download My Resume</a><br/><br/><br/>
         </div>
         

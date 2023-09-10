@@ -12,10 +12,11 @@
     --main-light: #f2bea6;
     --main-lighter: #f0d7cb;
     --lightest-green:#e4f4e7;
+    --white-green:#eef4ef;
 }
 
 body {
-    background-color: var(--lightest-green);
+    background-color: var(--white-green);
 }
 
 h1 {
