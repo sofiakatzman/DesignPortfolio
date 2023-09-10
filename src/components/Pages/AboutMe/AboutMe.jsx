@@ -25,10 +25,12 @@ function AboutMe(){
                 If you're interested in connecting or exploring potential opportunities, please don't hesitate to reach out. Let's chat and create something extraordinary together!<br/><br/> </p>
                 <a href={resume} download className="resume">Download My Resume</a><br/><br/><br/>
         </div>
-        <CurrentActivities /> 
+        
         </div>
         <br/>
-        
+        <div className="current-activities-card"> 
+        <CurrentActivities />
+        </div>
        
       <br/><br/><br/><br/><br/><br/>
     </div>

@@ -10,18 +10,18 @@ function CurrentActivities() {
   };
 
   const activities = {
-    learning: " GameMaker Studio",
-    reading: " \"The Seven Husbands of Evelyn Hugo\" by Taylor Jenkins Reid",
-    playing: " Common'hood",
-    collaborating: " on a Web Development project",
+    learning: " GameMaker Studio ",
+    reading: " \"The Seven Husbands of Evelyn Hugo\" by Taylor Jenkins Reid ",
+    playing: " Common'hood ", 
+    collaborating: " on a Web Development project ",
   };
 
   return (
     <div className="current-activities">
       <p>
-        Currently I am {selectedOption ? `${selectedOption}${activities[selectedOption]}` : "Select an option"}
+        Currently I am {selectedOption ? `${selectedOption}${activities[selectedOption]}` : "..."}
         <span className="dropdown-arrow" onClick={() => setIsOpen(!isOpen)}>
-          &#9660;
+        &#9662;
         </span>
       </p>
       {isOpen && (
