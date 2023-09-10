@@ -3,6 +3,7 @@ import './AboutMe.css';
 import profileImage from '../../../assets/headshot.jpg'
 import resume from '../../../assets/Sofia_Katzman_Design.pdf'
 import CurrentActivities from "./CurrentActivities/CurrentActivities";
+import Technologies from "../Technologies/Technologies";
 
 function AboutMe(){
     return(
@@ -28,9 +29,11 @@ function AboutMe(){
         
         </div>
         <br/>
+        <Technologies />
         <div className="current-activities-card"> 
         <CurrentActivities />
         </div>
+        
        
       <br/><br/><br/><br/><br/><br/>
     </div>

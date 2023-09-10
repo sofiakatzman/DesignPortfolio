@@ -6,7 +6,7 @@ function Technologies(){
 
     return (
         <div className="technologies">
-            <h2 className="title">TECHNOLOGIES</h2>
+            <h2 className="title">RELATED TECHNOLOGIES</h2>
             <div className="technologies-container">
                 {technologies.map((tech, index) => (
                     <div key={index} className="technology">

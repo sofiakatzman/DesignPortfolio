@@ -1,6 +1,5 @@
 import React from "react";
-import './Design.css'
-import Technologies from '../Technologies/Technologies'
+import './Gallery.css'
 import { useNavigate } from "react-router-dom";
 
 
