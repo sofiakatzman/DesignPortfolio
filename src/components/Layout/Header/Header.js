@@ -27,10 +27,11 @@ function Header() {
 
   return (
     <nav className="header">
-      <div className="logo">Sofia Katzman</div>
+      <div className="logo"></div>
       <div className={`nav-links ${isNavOpen ? 'active' : ''}`}>
         <Link onClick={hideNav} to="/">home</Link>
-        <Link onClick={hideNav} to="/design">design</Link>
+        <Link onClick={hideNav} to="/aboutme">about me</Link>
+        <Link onClick={hideNav} to="/design">gallery</Link>
         <Link onClick={hideNav} to="/contactme">contact me</Link>
       </div>
       <div className="burger" onClick={toggleNav}>
