@@ -10,6 +10,7 @@ import UserInterface from './components/Pages/Design/UserInterface/UserInterface
 import ClientProjects from './components/Pages/Design/ClientProjects/ClientProjects'
 import ClientProjectDetail from './components/Pages/Design/ClientProjects/ClientProjectDetail/ClientProjectDetail'
 import Digital from './components/Pages/Design/UserInterface/Digital/Digital'
+import AboutMe from './components/Pages/AboutMe/AboutMe'
 function App() {
   return (
     <div>
@@ -24,6 +25,7 @@ function App() {
             <Route path="/design/clientprojects/:name" element={<ClientProjectDetail />} />
             <Route path="/design/digital" element={<Digital />} />
           <Route path="/project/:name" element={<ProjectDetail />} />
+          <Route path="/aboutme" element={<AboutMe />} /> 
           <Route path="/contactme" element={<ContactMe />} />
           <Route path="/" element={<Home />} /> 
         </Routes>     
