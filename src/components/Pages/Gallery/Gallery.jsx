@@ -25,6 +25,10 @@ function Gallery() {
     window.location.href = 'https://www.youtube.com/watch?v=YbBGoeyBsvU';
   };
 
+  const redirectToBFA = () => {
+    window.location.href = 'https://bfa.com/events/39567';
+  };
+
   return (
     
 
@@ -135,6 +139,11 @@ function Gallery() {
                 {/* Production: Art Gallery Opening */}
                 <TabPanel>
                   <ImageGalleryDisplay images={PRINCEANDWOOSTER}/>
+                  <div className="design-categories">
+                    <button className="design-category" onClick={redirectToBFA}>
+                      View BFA Coverage
+                    </button>
+                    </div>
                 </TabPanel>
                 {/* Production: ChloeBday */}
                 <TabPanel>
