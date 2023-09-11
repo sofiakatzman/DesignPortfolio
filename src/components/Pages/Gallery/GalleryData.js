@@ -1,8 +1,5 @@
 export const ARTAPPIMAGES = [
-  {
-    original: require('./GalleryAssets/ArtApp/0ArtAppiPhoneMockup.png'),
-    className: "ui",
-  },
+ 
   {
     original: require('./GalleryAssets/ArtApp/1ArtAppHomeScreen.png'),
     className: "ui",
@@ -160,4 +157,66 @@ export const ENTERTAINMENTACCESS = [
   // },
 
   
+]
+
+export const PRINCEANDWOOSTER = [
+  {
+    original: require('./GalleryAssets/Production/PANDW/EmilyFergusonEventInvite.png'),
+  },
+  {
+    original: require('./GalleryAssets/Production/PANDW/NathanRitterpuschEventInvite.png'),
+  },
+  {
+    original: require('./GalleryAssets/Production/PANDW/YuangFangEventInvite.png'),
+  },
+  {
+    original: require('./GalleryAssets/Production/PANDW/setup.jpg'),
+  },
+  {
+    original: require('./GalleryAssets/Production/PANDW/treats.jpg'),
+  },
+  {
+    original: require('./GalleryAssets/Production/PANDW/menu.jpg'),
+  },
+  {
+    original: require('./GalleryAssets/Production/PANDW/menu2.jpg'),
+  },
+  {
+    original: require('./GalleryAssets/Production/PANDW/servers.jpg'),
+  },
+]
+
+export const CHLOEBDAY = [
+  {
+    original: require('./GalleryAssets/Production/CHLOEBDAY/ChloeBdayEventInvite.png'),
+  },
+  {
+    original: require('./GalleryAssets/Production/CHLOEBDAY/bouncehouse.JPG'),
+  },
+  {
+    original: require('./GalleryAssets/Production/CHLOEBDAY/caketopper.JPG'),
+  },
+  // {
+  //   original: require('./GalleryAssets/Production/CHLOEBDAY/entrance.JPG'),
+  // },
+  {
+    original: require('./GalleryAssets/Production/CHLOEBDAY/setup.JPG'),
+  },
+  {
+    original: require('./GalleryAssets/Production/CHLOEBDAY/disco.JPG'),
+  },
+  {
+    original: require('./GalleryAssets/Production/CHLOEBDAY/food.JPG'),
+  },
+  {
+    original: require('./GalleryAssets/Production/CHLOEBDAY/entrance.JPG'),
+  },
+]
+
+
+export const TBDEDGE = [
+  {
+    original: require('./GalleryAssets/Production/TMB/MartinezBrothersEventInvite.png'),
+  },
+ 
 ]

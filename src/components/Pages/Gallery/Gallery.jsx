@@ -3,7 +3,7 @@ import './Gallery.css'
 import ImageGalleryDisplay from "./ImageGalleryDisplay/ImageGalleryDisplay";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import {ARTAPPIMAGES, INVITEMUSIC, INVITEBIRTHDAY, INVITEART, INVITESPORT, TUCANO, BAETAILS, ENTERTAINMENTACCESS} from "./GalleryData"; // Import your data structure here
+import {ARTAPPIMAGES, INVITEMUSIC, INVITEBIRTHDAY, INVITEART, INVITESPORT, TUCANO, BAETAILS, ENTERTAINMENTACCESS, PRINCEANDWOOSTER, CHLOEBDAY, TBDEDGE} from "./GalleryData"; // Import your data structure here
 
 
 function Gallery() {
@@ -59,6 +59,7 @@ function Gallery() {
         <TabList>
           <Tab>All</Tab>
           <Tab>Client Projects</Tab>
+          <Tab>Production</Tab>
           <Tab>User Interface</Tab>
           <Tab>Invitations</Tab>
           
@@ -76,7 +77,7 @@ function Gallery() {
               <Tab>Cafe Tucano</Tab>
               <Tab>Bae Tails</Tab>
               <Tab>Entertainment Access</Tab>
-              {/* <Tab>Rombiolo</Tab> */}
+              {/* <Tab>Rombiolo tbd?</Tab> */}
             </TabList>
             {/* Invites: Tucano */}
                 <TabPanel>
@@ -89,6 +90,33 @@ function Gallery() {
                 {/* Invites: EA */}
                 <TabPanel>
                   <ImageGalleryDisplay images={ENTERTAINMENTACCESS}/>
+                </TabPanel>
+                {/* Invites: Rombiolo */}
+                {/* <TabPanel>
+                <ImageGalleryDisplay images={INVITESPORT}/>
+                </TabPanel> */}
+          </Tabs>
+        </TabPanel>
+
+        {/* PRODUCTION TAB  */}
+       <TabPanel>
+          <Tabs forceRenderTabPanel>
+            <TabList>
+              <Tab>The Martinez Brothers at The Edge</Tab>
+              <Tab>Prince and Wooster: Gallery Opening</Tab>
+              <Tab>Ice Cream Birthday Party</Tab>
+            </TabList>
+            {/* Production: TMB */}
+                <TabPanel>
+                  <ImageGalleryDisplay images={TBDEDGE}/>
+                </TabPanel>
+                {/* Production: Art Gallery Opening */}
+                <TabPanel>
+                  <ImageGalleryDisplay images={PRINCEANDWOOSTER}/>
+                </TabPanel>
+                {/* Production: ChloeBday */}
+                <TabPanel>
+                  <ImageGalleryDisplay images={CHLOEBDAY}/>
                 </TabPanel>
                 {/* Invites: Rombiolo */}
                 {/* <TabPanel>
