@@ -40,7 +40,7 @@ h1 {
   }
   
   p {
-    font-size: 22px;
+    font-size: 18px;
     color: var(--med-green);
     font-weight: 300;
   }
@@ -52,11 +52,13 @@ h1 {
   }
 
   li {
-    font-size: 18px; /* Adjust the font size of the list items */
+    
     color: var(--med-green); /* Use the color from your palette */
     margin-bottom: 5px; /* Add spacing between list items */
   }
 
-  
+  .app{
+    margin: 30px;
+  }
   
   

@@ -1,17 +1,17 @@
-/* Header CSS */
+/* Footer CSS */
 @import '../../../App.css';
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* background-color: var(--main-lighter); */
-    color: var(--light-green);
-    padding: 10px 30px 15px 30px;
-    font-size: 2px;
-  
-  }
-  
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: var(--light-green);
+  padding: 10px 30px 15px 30px;
+  font-size: 16px; 
+  justify-content: center; 
+  display: flex;
+  background-color: var(--white-green);
+}
   .logo {
     font-size: 24px;
     font-weight: bold;
@@ -21,6 +21,7 @@
   .nav-links ul {
     list-style: none;
     display: flex;
+    
 }
 
   .nav-links a {
@@ -29,6 +30,7 @@
     margin-right: 50px; 
     font-size: 20px;
     font-weight: bold;
+    
 }
 .nav-links a:hover { 
   color: var(--main-light)

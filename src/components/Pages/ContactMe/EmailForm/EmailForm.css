@@ -21,7 +21,7 @@
   }
   
   .email-form label {
-    color: var(--main-orange);
+    color: var(--main-green);
   }
   
   .email-form input[type="text"],
@@ -30,7 +30,7 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid var(--main-orange);
+    border: 1px solid var(--main-green);
     border-radius: 5px;
     box-sizing: border-box;
   }
@@ -46,8 +46,8 @@
   }
   
   .email-form button:hover {
-    background-color: var(--med-green);
-    color: var(--main-lighter);
+    background-color: var(--med-orange);
+    color: var(--lightest-green);
   }
 
   

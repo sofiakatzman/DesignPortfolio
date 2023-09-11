@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react"
 import { Link } from 'react-router-dom'
-import './Header.css'
+import './Footer.css'
 
-function Header() {
+function Footer() {
   const [isNavOpen, setIsNavOpen] = useState(false)
 
   useEffect(() => {
@@ -26,7 +26,7 @@ function Header() {
   }
 
   return (
-    <nav className="header">
+    <nav className="footer">
       <div className="logo"></div>
       <div className={`nav-links ${isNavOpen ? 'active' : ''}`}>
         <Link onClick={hideNav} to="/">home</Link>
@@ -43,4 +43,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Footer

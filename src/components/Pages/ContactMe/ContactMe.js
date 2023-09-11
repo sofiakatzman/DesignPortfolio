@@ -5,7 +5,6 @@ import "./ContactMe.css"
 function ContactMe(){
     return(
         <div className="contact">
-        <h2 className="title">CONTACT ME</h2>
         <EmailForm />
         </div>
     )

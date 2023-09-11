@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 60%;
+    max-width: 70%;
     /* margin: -10 auto; */
     box-sizing: border-box;
     /* background-color: #ffffff50; */
@@ -12,8 +12,8 @@
 
 .home-container > div {
     flex: 1;
-    margin: 75px 100px;
-    padding: 25px 150px;
+    margin: 75px 200px;
+    padding: 25px 50px;
 }
 
 .home-headshot {
@@ -53,6 +53,11 @@ p.home-blurb {
     margin-top: -10px;
 }
 
+.home-blurb {
+    background-color: rgba(255, 255, 255, 0.367);
+    border-radius: 30px;
+}
+
 .home-blurb p {
     font-size: 22px;
     color: var(--darkest-green);
@@ -72,22 +77,37 @@ p.home-blurb {
     color: var(--med-green);
 
 }
+
 @media screen and (max-width: 768px) {
     .home-container {
         flex-direction: column;
         padding: 50px 50px 80px 50px;
         max-width: 100%;
-        
-        /* text-align: center; */
     }
 
     .home-container > div {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 0px;
+        /* width: 100%; */
+        margin: 15px 10px;
+        padding: 30px 30px;
+
     }
-    
+      
     .home-blurb {
         padding: 20px;
+        max-width: 100%; /* Ensure it spans the entire width */
+        text-align: center; /* Center-align the content */
+    }
+    
+    .home-blurb h2 {
+        font-size: 28px; /* Adjust font size as needed */
+    }
+    
+    .home-blurb h3 {
+        font-size: 20px; /* Adjust font size as needed */
+        margin-top: 5px; /* Adjust margin-top as needed */
+    }
+    
+    .home-blurb p {
+        font-size: 18px; /* Adjust font size as needed */
     }
 }

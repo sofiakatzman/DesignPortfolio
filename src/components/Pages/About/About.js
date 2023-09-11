@@ -1,8 +1,5 @@
 import React from "react"
 import './About.css'
-import headshot from '../../../assets/headshot.jpg'
-
-import Contact from '../../Layout/Contact/Contact'
 
 function About() {
     return (

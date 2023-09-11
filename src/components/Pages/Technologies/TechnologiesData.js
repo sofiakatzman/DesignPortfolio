@@ -30,11 +30,11 @@ const technologies = [
         link: "https://www.adobe.com/products/indesign.html",
         alt: "Adobe InDesign",
     },
-    {
-        logo: ADOBE_CREATIVE_CLOUD_LOGO,
-        link: "https://www.adobe.com/creativecloud.html",
-        alt: "Adobe Creative Cloud",
-    },
+    // {
+    //     logo: ADOBE_CREATIVE_CLOUD_LOGO,
+    //     link: "https://www.adobe.com/creativecloud.html",
+    //     alt: "Adobe Creative Cloud",
+    // },
     {
         logo: ADOBE_XD_LOGO,
         link: "https://www.adobe.com/products/xd.html",

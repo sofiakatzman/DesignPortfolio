@@ -7,7 +7,9 @@ function Home(){
         <>
         <div className="background-container">          
         </div>
-        <About /> </>
+        <About /> 
+        
+        </>
     )
 }
 
