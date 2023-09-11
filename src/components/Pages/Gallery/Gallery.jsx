@@ -5,8 +5,20 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import {ARTAPPIMAGES, INVITEMUSIC, INVITEBIRTHDAY, INVITEART, INVITESPORT, TUCANO, BAETAILS, ENTERTAINMENTACCESS} from "./GalleryData"; // Import your data structure here
 
+
 function Gallery() {
+  const allImages = [
+    ...INVITEMUSIC,
+    ...INVITEBIRTHDAY,
+    ...INVITEART,
+    ...INVITESPORT,
+    ...ARTAPPIMAGES,
+    ...TUCANO,
+    ...BAETAILS,
+    ...ENTERTAINMENTACCESS,
+  ];
   return (
+    
 
     // <div className="design-categories">
     //   <Tabs forceRenderTabPanel defaultIndex={0}>
@@ -45,10 +57,45 @@ function Gallery() {
 
        {/* MAIN TABS */}
         <TabList>
+          <Tab>All</Tab>
+          <Tab>Client Projects</Tab>
           <Tab>User Interface</Tab>
           <Tab>Invitations</Tab>
-          <Tab>Client Projects</Tab>
+          
         </TabList>
+
+        {/* All Tab */}
+        <TabPanel>
+          <ImageGalleryDisplay images={allImages} />
+        </TabPanel>
+
+       {/* CLIENT PROJECTS TAB  */}
+       <TabPanel>
+          <Tabs forceRenderTabPanel>
+            <TabList>
+              <Tab>Cafe Tucano</Tab>
+              <Tab>Bae Tails</Tab>
+              <Tab>Entertainment Access</Tab>
+              {/* <Tab>Rombiolo</Tab> */}
+            </TabList>
+            {/* Invites: Tucano */}
+                <TabPanel>
+                  <ImageGalleryDisplay images={TUCANO}/>
+                </TabPanel>
+                {/* Invites: BaeTails */}
+                <TabPanel>
+                  <ImageGalleryDisplay images={BAETAILS}/>
+                </TabPanel>
+                {/* Invites: EA */}
+                <TabPanel>
+                  <ImageGalleryDisplay images={ENTERTAINMENTACCESS}/>
+                </TabPanel>
+                {/* Invites: Rombiolo */}
+                {/* <TabPanel>
+                <ImageGalleryDisplay images={INVITESPORT}/>
+                </TabPanel> */}
+          </Tabs>
+        </TabPanel>
 
        {/* UI TAB */}
         <TabPanel>
@@ -90,33 +137,7 @@ function Gallery() {
           </Tabs>
         </TabPanel>
 
-        {/* CLIENT PROJECTS TAB  */}
-        <TabPanel>
-          <Tabs forceRenderTabPanel>
-            <TabList>
-              <Tab>Cafe Tucano</Tab>
-              <Tab>Bae Tails</Tab>
-              <Tab>Entertainment Access</Tab>
-              {/* <Tab>Rombiolo</Tab> */}
-            </TabList>
-            {/* Invites: Tucano */}
-                <TabPanel>
-                  <ImageGalleryDisplay images={TUCANO}/>
-                </TabPanel>
-                {/* Invites: BaeTails */}
-                <TabPanel>
-                  <ImageGalleryDisplay images={BAETAILS}/>
-                </TabPanel>
-                {/* Invites: EA */}
-                <TabPanel>
-                  <ImageGalleryDisplay images={ENTERTAINMENTACCESS}/>
-                </TabPanel>
-                {/* Invites: Rombiolo */}
-                {/* <TabPanel>
-                <ImageGalleryDisplay images={INVITESPORT}/>
-                </TabPanel> */}
-          </Tabs>
-        </TabPanel>
+       
 
         
       </Tabs>
