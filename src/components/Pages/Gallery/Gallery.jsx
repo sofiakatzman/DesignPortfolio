@@ -4,7 +4,19 @@ import './Gallery.css'
 import ImageGalleryDisplay from "./ImageGalleryDisplay/ImageGalleryDisplay";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import {ARTAPPIMAGES, INVITEMUSIC, INVITEBIRTHDAY, INVITEART, INVITESPORT, CAFETUCANO, BAETAILS, ENTERTAINMENTACCESS, PRINCEANDWOOSTER, CHLOEBDAY, TBDEDGE} from "./GalleryData"; // Import your data structure here
+import {
+  ARTAPPIMAGES,
+  INVITEMUSIC,
+  INVITEBIRTHDAY,
+  INVITEART,
+  INVITESPORT,
+  CAFETUCANO,
+  BAETAILS,
+  ENTERTAINMENTACCESS,
+  PRINCEANDWOOSTER,
+  CHLOEBDAY,
+  TBDEDGE
+} from "./GalleryData";
 
 
 function Gallery() {
@@ -19,7 +31,20 @@ function Gallery() {
     ...CAFETUCANO,
     ...BAETAILS,
     ...ENTERTAINMENTACCESS,
+    ...CHLOEBDAY,
+    ...TBDEDGE
   ];
+  
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+    }
+    return array;
+  }
+
+  const randomizedImages = shuffleArray(allImages);
+  
 
   const redirectToYouTube = () => {
     window.location.href = 'https://www.youtube.com/watch?v=YbBGoeyBsvU';
@@ -79,7 +104,7 @@ function Gallery() {
 
         {/* All Tab */}
         <TabPanel>
-          <ImageGalleryDisplay images={allImages} />
+          <ImageGalleryDisplay images={randomizedImages} />
         </TabPanel>
 
        {/* CLIENT PROJECTS TAB  */}
