@@ -218,5 +218,14 @@ export const TBDEDGE = [
   {
     original: require('./GalleryAssets/Production/TMB/MartinezBrothersEventInvite.png'),
   },
+  {
+    original: require('./GalleryAssets/Production/TMB/TMBFloorplan.png'),
+  },
+  {
+    original: require('./GalleryAssets/Production/TMB/TMDSignage.png'),
+  },
+ 
+  
+
  
 ]
