@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 70%;
+    max-width: 60%;
     /* margin: -10 auto; */
     box-sizing: border-box;
     /* background-color: #ffffff50; */
@@ -12,7 +12,7 @@
 
 .home-container > div {
     flex: 1;
-    margin: 75px 200px;
+    margin: 75px 100px;
     padding: 25px 50px;
 }
 
