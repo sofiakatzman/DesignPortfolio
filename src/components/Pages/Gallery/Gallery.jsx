@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import './Gallery.css'
 import ImageGalleryDisplay from "./ImageGalleryDisplay/ImageGalleryDisplay";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -7,6 +8,8 @@ import {ARTAPPIMAGES, INVITEMUSIC, INVITEBIRTHDAY, INVITEART, INVITESPORT, TUCAN
 
 
 function Gallery() {
+  const navigate = useNavigate()
+
   const allImages = [
     ...INVITEMUSIC,
     ...INVITEBIRTHDAY,
@@ -82,14 +85,23 @@ function Gallery() {
             {/* Invites: Tucano */}
                 <TabPanel>
                   <ImageGalleryDisplay images={TUCANO}/>
+                  <div className="design-categories">
+                    <button className="design-category" onClick={()=>navigate("/design/clientprojects/CafeTucano")}>READ MORE</button> <br/>
+                  </div>
                 </TabPanel>
                 {/* Invites: BaeTails */}
                 <TabPanel>
                   <ImageGalleryDisplay images={BAETAILS}/>
+                  <div className="design-categories">
+                    <button className="design-category" onClick={()=>navigate("/design/clientprojects/BaeTails")}>READ MORE</button> <br/>
+                  </div>
                 </TabPanel>
                 {/* Invites: EA */}
                 <TabPanel>
                   <ImageGalleryDisplay images={ENTERTAINMENTACCESS}/>
+                  {/* <div className="design-categories">
+                    <button className="design-category" onClick={()=>navigate("/design/clientprojects/EntertainmentAccess")}>READ MORE</button> <br/>
+                  </div> */}
                 </TabPanel>
                 {/* Invites: Rombiolo */}
                 {/* <TabPanel>

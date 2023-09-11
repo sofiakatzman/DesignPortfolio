@@ -43,12 +43,12 @@ function ClientProjectDetail() {
         <p>{clientProject.favoritePart}</p>
       </div>
       <div className="client-project-images">
-        <h2>Images</h2>
+        {/* <h2>Images</h2>
         <div className="image-gallery">
           {clientProject.images.map((image, index) => (
             <img key={index} src={image} alt={`Image ${index}`} className="client-project-images" />
           ))}
-        </div> <br/>
+        </div> <br/> */}
         <h2>Materials</h2>
         <div className="material-buttons">
           {clientProject.materials.map((material, index) => (

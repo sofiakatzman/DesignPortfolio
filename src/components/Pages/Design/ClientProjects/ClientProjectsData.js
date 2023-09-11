@@ -20,23 +20,23 @@ const CLIENT_PROJECTS_DATA = [
     ],
     favoritePart: "My favorite part of this project was creating the mosaic installations!",
     images: [
-      require('./ClientProjectsAssets/Tucano/logo.JPG'),
-      require('./ClientProjectsAssets/Tucano/tucanofascade.jpg'),
-      require('./ClientProjectsAssets/Tucano/tucanomural.JPG'),
-      require('./ClientProjectsAssets/Tucano/mosaic1.jpg'),
-      require('./ClientProjectsAssets/Tucano/mosaic2.JPG'),
-      require('./ClientProjectsAssets/Tucano/mosaic3.JPG'),
-      require('./ClientProjectsAssets/Tucano/tucanoinvite1.jpg'),
-      require('./ClientProjectsAssets/Tucano/tucanoinvite2.jpg'),
+      // require('./ClientProjectsAssets/Tucano/logo.JPG'),
+      // require('./ClientProjectsAssets/Tucano/tucanofascade.jpg'),
+      // require('./ClientProjectsAssets/Tucano/tucanomural.JPG'),
+      // require('./ClientProjectsAssets/Tucano/mosaic1.jpg'),
+      // require('./ClientProjectsAssets/Tucano/mosaic2.JPG'),
+      // require('./ClientProjectsAssets/Tucano/mosaic3.JPG'),
+      // require('./ClientProjectsAssets/Tucano/tucanoinvite1.jpg'),
+      // require('./ClientProjectsAssets/Tucano/tucanoinvite2.jpg'),
     ],
     materials: [
       {
         text: "Download Brunch Menu",
-        link: require('./ClientProjectsAssets/Tucano/BrunchMenu.pdf'),
+        // link: require('./ClientProjectsAssets/Tucano/BrunchMenu.pdf'),
       },
       {
         text: "Download Pamphlet Menu",
-        link: require('./ClientProjectsAssets/Tucano/SitDownMenu.pdf'),
+        // link: require('./ClientProjectsAssets/Tucano/SitDownMenu.pdf'),
       },
       // Add more materials as needed...
     ],
@@ -63,20 +63,20 @@ const CLIENT_PROJECTS_DATA = [
     favoritePart:
       "My favorite part was the completion of the backyard mural! I had never painted something so big in my life, and I feel like this was the moment where I felt like, YES, I am an artist!",
     images: [
-      require('./ClientProjectsAssets/BaeTails/bt-logo.jpg'),
-      require('./ClientProjectsAssets/BaeTails/bt-fascade.png'),
-      require('./ClientProjectsAssets/BaeTails/bt-lobby.png'),
-      require('./ClientProjectsAssets/BaeTails/bt-backmural.png'),
+      // require('./ClientProjectsAssets/BaeTails/bt-logo.jpg'),
+      // require('./ClientProjectsAssets/BaeTails/bt-fascade.png'),
+      // require('./ClientProjectsAssets/BaeTails/bt-lobby.png'),
+      // require('./ClientProjectsAssets/BaeTails/bt-backmural.png'),
     
     ],
     materials: [
       {
         text: "Download Buisness Cards",
-        link: require('./ClientProjectsAssets/BaeTails/bt-buisnesscard-01.png'),
+        // link: require('./ClientProjectsAssets/BaeTails/bt-buisnesscard-01.png'),
       },
       {
         text: "Download Brochure",
-        link: require('./ClientProjectsAssets/BaeTails/brochure.pdf'),
+        // link: require('./ClientProjectsAssets/BaeTails/brochure.pdf'),
       },
       
       // Add more materials as needed...
