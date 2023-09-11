@@ -11,7 +11,7 @@ function About() {
                 <div className="home-blurb">
                     <h2>Sofia Katzman</h2>
                     <h3>Artist and Designer</h3>
-                    <p>Hello! I'm Sofia, and my passion lies in bringing imaginative concepts to life.</p>
+                    <p >Hello! I'm Sofia, and my passion lies in bringing imaginative concepts to life.</p>
                     <p>With a diverse background that spans design, project management, and creative production, I specialize in the art of visual storytelling and innovative design. <br/><br/>I'm on a mission to turn ideas into tangible works of art and memorable experiences.</p>
                     <br/><br/><br/>
                     

@@ -146,11 +146,15 @@ export const BAETAILS = [
 
 export const ENTERTAINMENTACCESS = [
   {
+    original: require('./GalleryAssets/EntertainmentAccess/EAColor.png'),
+  },
+  {
     original: require('./GalleryAssets/EntertainmentAccess/EntertainmentAccessTShirt.png'),
   },
   {
     original: require('./GalleryAssets/EntertainmentAccess/EntertainmentAccessBadges.png'),
   },
+  
 
   // {
   //   original: require('./GalleryAssets/BaeTails/BaeTailsColorPalette.png'),

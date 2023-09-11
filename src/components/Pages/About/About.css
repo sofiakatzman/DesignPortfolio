@@ -4,14 +4,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 85%;
+    max-width: 60%;
     /* margin: -10 auto; */
     box-sizing: border-box;
+    /* background-color: #ffffff50; */
 }
 
 .home-container > div {
     flex: 1;
-    padding: 250px;
+    margin: 75px 100px;
+    padding: 25px 150px;
 }
 
 .home-headshot {
@@ -26,6 +28,9 @@
     object-fit: cover;
 }
 
+p.home-blurb {
+    font-weight: bold;
+}
 
 .home-blurb h2,
 .home-blurb h3,
@@ -51,7 +56,7 @@
 .home-blurb p {
     font-size: 22px;
     color: var(--darkest-green);
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .resume{
