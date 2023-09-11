@@ -72,6 +72,16 @@ p.home-blurb {
     padding: 10px;
 }
 
+button.resume{
+    background-color: var(--light-green);
+    border-radius: 15px;
+    text-decoration: none;
+    color: var(--main-green);
+    padding: 10px;
+    border: none;
+}
+
+
 .resume:hover{
     background-color: var(--light-green);
     color: var(--med-green);

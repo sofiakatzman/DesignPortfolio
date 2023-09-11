@@ -6,6 +6,11 @@ import CurrentActivities from "./CurrentActivities/CurrentActivities";
 import Technologies from "../Technologies/Technologies";
 
 function AboutMe(){
+
+    const redirectToDev = () => {
+        window.location.href = 'https://www.sofiakatzman.dev';
+      };
+
     return(
         <div className="about-me-container">
         <div className="about-me-card">
@@ -27,6 +32,7 @@ function AboutMe(){
                 
                 Let's chat and create something extraordinary together!<br/><br/> </p>
                 <a href={resume} download className="resume">Download My Resume</a><br/><br/><br/>
+                <button onClick={redirectToDev} className="resume">View My Software Engineering Portfolio</button>
         </div>
         
         </div>
