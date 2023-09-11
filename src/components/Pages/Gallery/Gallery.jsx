@@ -4,7 +4,7 @@ import './Gallery.css'
 import ImageGalleryDisplay from "./ImageGalleryDisplay/ImageGalleryDisplay";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import {ARTAPPIMAGES, INVITEMUSIC, INVITEBIRTHDAY, INVITEART, INVITESPORT, TUCANO, BAETAILS, ENTERTAINMENTACCESS, PRINCEANDWOOSTER, CHLOEBDAY, TBDEDGE} from "./GalleryData"; // Import your data structure here
+import {ARTAPPIMAGES, INVITEMUSIC, INVITEBIRTHDAY, INVITEART, INVITESPORT, CAFETUCANO, BAETAILS, ENTERTAINMENTACCESS, PRINCEANDWOOSTER, CHLOEBDAY, TBDEDGE} from "./GalleryData"; // Import your data structure here
 
 
 function Gallery() {
@@ -16,7 +16,7 @@ function Gallery() {
     ...INVITEART,
     ...INVITESPORT,
     ...ARTAPPIMAGES,
-    ...TUCANO,
+    ...CAFETUCANO,
     ...BAETAILS,
     ...ENTERTAINMENTACCESS,
   ];
@@ -84,7 +84,7 @@ function Gallery() {
             </TabList>
             {/* Invites: Tucano */}
                 <TabPanel>
-                  <ImageGalleryDisplay images={TUCANO}/>
+                  <ImageGalleryDisplay images={CAFETUCANO}/>
                   <div className="design-categories">
                     <button className="design-category" onClick={()=>navigate("/design/clientprojects/CafeTucano")}>READ MORE</button> <br/>
                   </div>

@@ -2,9 +2,17 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import CLIENT_PROJECTS_DATA from '../ClientProjectsData';
 import "./ClientProjectDetail.css";
+import { BAETAILS, CAFETUCANO } from "../../../Gallery/GalleryData";
+import ImageGalleryDisplay from "../../../Gallery/ImageGalleryDisplay/ImageGalleryDisplay";
 
 function ClientProjectDetail() {
   const { name } = useParams();
+  let imagesProp
+  if(name === "BaeTails"){
+    imagesProp = BAETAILS
+  }else if(name === "CafeTucano"){
+    imagesProp = CAFETUCANO
+  }
 
   // Find the client project by name in the CLIENT_PROJECTS_DATA array
   const clientProject = CLIENT_PROJECTS_DATA.find((proj) => proj.name === name);
@@ -16,6 +24,10 @@ function ClientProjectDetail() {
   return (
     <>
       <div className="client-project-header">
+        <div className="project-gallery">
+          <ImageGalleryDisplay images={imagesProp}/>
+        </div>
+      
         <h2 className="client-project-case-study-header">{clientProject.name}</h2>
         <p className="client-project-case-study">
           <b>Client Problem: </b> {clientProject.clientProblem}
@@ -39,29 +51,13 @@ function ClientProjectDetail() {
           ))}
         </ul>
         <br />
+        </div>
+        <div className="client-project-images">
+        
         <h2>Favorite Part</h2>
         <p>{clientProject.favoritePart}</p>
-      </div>
-      <div className="client-project-images">
-        {/* <h2>Images</h2>
-        <div className="image-gallery">
-          {clientProject.images.map((image, index) => (
-            <img key={index} src={image} alt={`Image ${index}`} className="client-project-images" />
-          ))}
-        </div> <br/> */}
-        <h2>Materials</h2>
-        <div className="material-buttons">
-          {clientProject.materials.map((material, index) => (
-            <button
-              key={index}
-              onClick={() => window.open(material.link, "_blank", "noopener noreferrer")}
-              className="material-button"
-            >
-              {material.text}
-            </button>
-          ))}
         </div>
-        </div>
+        
         </>
   );
 }

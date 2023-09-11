@@ -27,7 +27,6 @@ h2.client-project-name {
 .client-project-features {
   background-color: var(--light-green);
   padding: 5%;
-  width: 100%;
 }
 
 .client-project-images {
@@ -92,4 +91,11 @@ h1.client-project-name {
 .material-button:hover {
   background-color: var(--med-orange);
   color: var(--med-green);
+}
+
+.project-gallery{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }

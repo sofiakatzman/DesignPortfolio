@@ -78,7 +78,7 @@ export const INVITESPORT = [
   },
 ]
 
-export const TUCANO = [
+export const CAFETUCANO = [
   {
     original: require('./GalleryAssets/Tucano/TucanoBrunchFront.png'),
   },
@@ -88,9 +88,9 @@ export const TUCANO = [
   {
     original: require('./GalleryAssets/Tucano/Tucano Full Menu.png'),
   },
-  {
-    original: require('./GalleryAssets/Tucano/fascadedesign.PNG'),
-  },
+  // {
+  //   original: require('./GalleryAssets/Tucano/fascadedesign.PNG'),
+  // },
   {
     original: require('./GalleryAssets/Tucano/tucanofascade.jpg'),
   },
@@ -111,6 +111,9 @@ export const TUCANO = [
   },
   {
     original: require('./GalleryAssets/Tucano/tucanoinvite2.jpg'),
+  },
+  {
+    original: require('./GalleryAssets/Invites/MonicaBaddarEventInvite.png'),
   },
   
 ]
