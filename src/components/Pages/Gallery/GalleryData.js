@@ -35,6 +35,9 @@ export const INVITEMUSIC = [
   {
     original: require('./GalleryAssets/Invites/GuyGerber2EventInvite.png'),
   },
+  {
+    original: require('./GalleryAssets/Tucano/Secret.png'),
+  },
 ]
 
 export const INVITEBIRTHDAY = [
@@ -92,33 +95,27 @@ export const CAFETUCANO = [
   //   original: require('./GalleryAssets/Tucano/fascadedesign.PNG'),
   // },
   {
+    original: require('./GalleryAssets/Tucano/mosaics.png'),
+  },
+  {
+    original: require('./GalleryAssets/Tucano/Secret.png'),
+  },
+  {
+    original: require('./GalleryAssets/Invites/MonicaBaddarEventInvite.png'),
+  },
+  {
     original: require('./GalleryAssets/Tucano/tucanofascade.jpg'),
   },
   {
     original: require('./GalleryAssets/Tucano/tucanomural.JPG'),
   },
-  {
-    original: require('./GalleryAssets/Tucano/mosaic1.jpg'),
-  },
-  {
-    original: require('./GalleryAssets/Tucano/mosaic2.JPG'),
-  },
-  {
-    original: require('./GalleryAssets/Tucano/mosaic3.JPG'),
-  },
-  {
-    original: require('./GalleryAssets/Tucano/tucanoinvite1.jpg'),
-  },
-  {
-    original: require('./GalleryAssets/Tucano/tucanoinvite2.jpg'),
-  },
-  {
-    original: require('./GalleryAssets/Invites/MonicaBaddarEventInvite.png'),
-  },
   
 ]
 
 export const BAETAILS = [
+  {
+    original: require('./GalleryAssets/BaeTails/bt-logo.png'),
+  },
   {
     original: require('./GalleryAssets/BaeTails/BaeTailsBuisnessCardMockup.png'),
   },
@@ -137,9 +134,7 @@ export const BAETAILS = [
   {
     original: require('./GalleryAssets/BaeTails/bt-lobby.png'),
   },
-  {
-    original: require('./GalleryAssets/BaeTails/bt-logo.jpg'),
-  },
+  
   // {
   //   original: require('./GalleryAssets/BaeTails/BaeTailsColorPalette.png'),
   // },
