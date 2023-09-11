@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import './Gallery.css'
 import ImageGalleryDisplay from "./ImageGalleryDisplay/ImageGalleryDisplay";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -20,6 +20,11 @@ function Gallery() {
     ...BAETAILS,
     ...ENTERTAINMENTACCESS,
   ];
+
+  const redirectToYouTube = () => {
+    window.location.href = 'https://www.youtube.com/watch?v=YbBGoeyBsvU';
+  };
+
   return (
     
 
@@ -121,6 +126,11 @@ function Gallery() {
             {/* Production: TMB */}
                 <TabPanel>
                   <ImageGalleryDisplay images={TBDEDGE}/>
+                  <div className="design-categories">
+                    <button className="design-category" onClick={redirectToYouTube}>
+                      View Recap
+                    </button>
+                    </div>
                 </TabPanel>
                 {/* Production: Art Gallery Opening */}
                 <TabPanel>
